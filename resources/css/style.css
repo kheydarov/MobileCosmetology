@@ -202,8 +202,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
 }
 
 .hero-text-box {
@@ -644,6 +643,36 @@ footer p {
     margin-top: 20px;
 }
 
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+
+.top {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.phone-icon {
+  margin-right: 10px;
+  width: 8vh;
+  height: 8vh;
+}
+
+.footer-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 30px;
+}
 
 
 

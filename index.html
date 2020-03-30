@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -13,26 +12,40 @@
         <title>Texas-repair</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="row">
-                    <img src="resources/img/logo-white.png" alt="repair logo" class="logo">
-                    <img src="resources/img/logo.png" alt="repair logo" class="logo-black">
-                    <ul class="main-nav js--main-nav">
-                        <li><a href="#features">Our Services</a></li>                
-                        <li><a href="#cities">Contact Us</a></li>
-                        <li><a href="#plans">Special Offer</a></li>
-                    </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-                </div>
-            </nav>
-            <div class="hero-text-box">
-                <h1>Quality Service.<br>Fast and reliable.</h1>
-                <a class="btn btn-full js--scroll-to-plans" href="#">Get Quote</a>
-                <!-- <a class="btn btn-ghost js--scroll-to-start" href="#">Get Quote</a> -->
-            </div>
-            
-        </header>
+      <div class="flex-row">        
+        <span class="top">
+          <img src="resources/img/phone.png" alt="call us" class='phone-icon'>
+          <div>(888) 777 - 6655</div>
+        </span>        
+      
+        <div>
+          <ul class="social-links">
+              <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+              <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+              <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+              <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <header>
+          <nav>
+              <div class="row">
+                  <img src="resources/img/logo-white.png" alt="repair logo" class="logo">
+                  <img src="resources/img/logo.png" alt="repair logo" class="logo-black">
+                  <ul class="main-nav js--main-nav">
+                      <li><a href="#features">Services</a></li>                
+                      <li><a href="#cities">Service Areas</a></li>
+                      <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+                  <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+              </div>
+          </nav>
+          <div class="hero-text-box">
+              <h1>Quality Service.<br>Fast and reliable.</h1>
+              <a class="btn btn-full js--scroll-to-plans" href="#contact">Call Now</a>
+              <!-- <a class="btn btn-ghost js--scroll-to-start" href="#">Get Quote</a> -->
+          </div>          
+      </header>
         
         <section class="section-features js--section-features" id="features">
             <div class="row">
@@ -43,8 +56,7 @@
             </div>
             
             <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    
+                <div class="col span-1-of-4 box">                    
                     <img src="resources/img/washer.png" alt="washer" style="width:150px;height:150px;">
                     <h3>Washer Repair</h3>
                     <p>
@@ -53,7 +65,7 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/refrigerator.png" alt="refrigerator" style="width:150px;height:150px;">
-                    <h3>Refrigirator Repair</h3>
+                    <h3>Refrigerator Repair</h3>
                     <p>
                       If you consider how hard a refrigerator has to work, it is actually quite amazing that they break down so infrequently.
                     </p>
@@ -75,9 +87,8 @@
             </div>   
 
             <div class="row js--wp-1">
-              <div class="col span-1-of-4 box">
-                  
-                  <img src="resources/img/dryer.png" alt="dryer" style="width:150px;height:150px;">
+              <div class="col span-1-of-4 box">                  
+                  <img src="resources/img/dryer.jpg" alt="dryer" style="width:150px;height:150px;">
                   <h3>Dryer Repair</h3>
                   <p>
                     Most dryer problems can be fixed in an hour with a few basic tools and a continuity tester or multimeter.
@@ -107,44 +118,104 @@
             </div>  
         </section>
 
+        <!-- <section>
+          <h2>Brands We Repair</h2>
+          <div class="image-row">            
+            <img src="resources/img/appliance-brands-image.jpg" alt="brands">
+          </div> -->
+
+        </section>
+
         <section class="section-cities" id="cities">
             <div class="row">
-                <h2>We're currently in these cities</h2>
+                <h2>Locations We Serve</h2>
             </div>
-            <div class="row js--wp-3">               
-
-                <div class="col span-1-of-2 box">
-                    <img src="resources/img/sugarland.jpg" alt="Sugar Land" >
-                    <h3>Sugar Land</h3>
-                    <div class="city-feature">
-                        <i class="ion-ios-person icon-small"></i>
-                        700+ happy customers
-                    </div>
-                    <div class="city-feature">
-                        <i class="ion-ios-star icon-small"></i>
-                        5 technicians
-                    </div>
-                    <div class="city-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@asimyapar</a>
-                    </div>
+            <div class="row js--wp-3">            
+                <div class="col span-1-of-3 box">
+                  <!-- <img src="resources/img/sugarland.jpg" alt="Sugar Land" > -->
+                  <h3>Texas</h3>
+                  <div class="city-feature">
+                      <i class="ion-ios-location icon-small"></i>
+                      Houston
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Bellaire
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Sugar Land
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Katy/Fullshear
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Missoury City
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Richmond/Rosenberg
+                  </div>            
                 </div>
 
-                <div class="col span-1-of-2 box">
-                    <img src="resources/img/houston.jpg" alt="Houston">
-                    <h3>Houston</h3>
+                <div class="col span-1-of-3 box">
+                    <!-- <img src="resources/img/houston.jpg" alt="Houston"> -->
+                    <h3>California</h3>
                     <div class="city-feature">
-                        <i class="ion-ios-person icon-small"></i>
-                        300+ happy customers
+                      <i class="ion-ios-location icon-small"></i>
+                      San Francisco
                     </div>
                     <div class="city-feature">
-                        <i class="ion-ios-star icon-small"></i>
-                        3 technicians
+                      <i class="ion-ios-location icon-small"></i>
+                      San Jose
                     </div>
                     <div class="city-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@asim_houstonda_da_yapar</a>
+                      <i class="ion-ios-location icon-small"></i>
+                      Sunnyvale
                     </div>
+                    <div class="city-feature">
+                      <i class="ion-ios-location icon-small"></i>
+                      Albany
+                    </div>   
+                    <div class="city-feature">
+                      <i class="ion-ios-location icon-small"></i>
+                      Santa Clara
+                    </div>   
+                    <div class="city-feature">
+                      <i class="ion-ios-location icon-small"></i>
+                      Oakland
+                    </div>                
+                </div>
+
+                <div class="col span-1-of-3 box">
+                  <!-- <img src="resources/img/houston.jpg" alt="Houston"> -->
+                  <h3>Virginia</h3>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Alexandria
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Arlington
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Fairfax
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Berryville
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Danville
+                  </div>
+                  <div class="city-feature">
+                    <i class="ion-ios-location icon-small"></i>
+                    Bedford
+                  </div>
                 </div>
                 
             </div>
@@ -178,7 +249,7 @@ I was looking for a quick and fast appliance repair service in Sugar Land. I tri
         </section>
         
         
-        <section class="section-plans js--section-plans" id="plans">
+        <!-- <section class="section-plans js--section-plans" id="plans">
             <div class="row">
                 <h2>Call Today Apply This Coupon</h2>
             </div>
@@ -186,20 +257,24 @@ I was looking for a quick and fast appliance repair service in Sugar Land. I tri
                 
                     <div class="plan-box js--wp-4 center">
                         <div>
-                            <!-- <h3>COUPON</h3> -->
+                          
                             <p class="plan-price">25% OFF</p>
                         </div>
                         <div>
                             <h2>(888) 777 66 55</h2>
                             <h2>Call Now</h2>
                         </div>
-                    </div>             
-                              
+                    </div>           
+                         
             </div>
-        </section>
+        </section> -->
         
-        <section class="section-form">
+        <section class="section-form" id="contact">
             <div class="row">
+                <div class="footer-call">
+                  <img src="resources/img/phone.png" alt="call us" class='phone-icon'>
+                  <div>Call Us: (888) 777 - 6655</div>
+                </div>
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
@@ -256,23 +331,15 @@ I was looking for a quick and fast appliance repair service in Sugar Land. I tri
                         <div class="col span-2-of-3">
                             <input type="submit" value="Send it!">
                         </div>
-                    </div>
-                             
-                </form>
-                
+                    </div>                             
+                </form>                
             </div>
         </section>
         
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">iOS App</a></li>
-                        <li><a href="#">Android App</a></li>
-                    </ul>
+                  Developed by Kamal Heydarov Copyright 2020
                 </div>
                 <div class="col span-1-of-2">
                     <ul class="social-links">
@@ -282,12 +349,6 @@ I was looking for a quick and fast appliance repair service in Sugar Land. I tri
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <p>
-                    Developed by Kamal Heydarov
-                </p>
-
             </div>
         </footer>
         
