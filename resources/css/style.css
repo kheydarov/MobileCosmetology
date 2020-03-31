@@ -439,6 +439,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/customers.jpg);
     background-size: cover;
     color: #fff;
+    -webkit-background-size: cover;
     /* background-attachment: fixed; */
 }
 
