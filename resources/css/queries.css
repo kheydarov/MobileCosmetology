@@ -122,6 +122,10 @@
   .header {
     background-attachment: initial;
   }    
+
+  .section-testimonials {
+    background-attachment: initial;
+  }
   .top {
     font-size: 15px;
     padding: 5px;
