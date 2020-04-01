@@ -121,6 +121,8 @@
   .contact-form {width: 100%; }
   .header {
     background-attachment: initial;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/header-small.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/header-small.jpg);
   }    
 
   .section-testimonials {
