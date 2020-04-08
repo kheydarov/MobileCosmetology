@@ -136,9 +136,10 @@
     width: 4vh;
     height: 4vh;
   }
-  .flex-row {
+  /* .flex-row {
     margin: 0 10px;
-  }
+    margin-left: 0;
+  } */
 
   .footer-call {
     font-size:15px;
